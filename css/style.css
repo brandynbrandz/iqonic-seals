@@ -3693,7 +3693,16 @@ margin:0 auto !important;
 }
 
 
+.img_product{
+	height: 240px !important;
+	width: 360px !important;
+	object-fit: contain !important;
+}
 
+.img_product_related{
+	height: 114.7px !important;
+	object-fit: contain !important;
+}
 
 
 /* ================================================== */
@@ -3846,6 +3855,8 @@ width:100%;
 
 .picframe{
 overflow:hidden;
+border: 1px #888 solid;
+border-radius: 10px;
 }
 
 #btn-close-x{
@@ -3887,6 +3898,7 @@ position: absolute;
 }
 
 .de_light span.overlay {
+border-radius: 10px;
 background: #111;
 }
 
